@@ -332,10 +332,10 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@totominc/eslint-config-react@0.4.1":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@totominc/eslint-config-react/-/eslint-config-react-0.4.1.tgz#2016bf130e64ec20547559fb66da7a2f2baa62f3"
-  integrity sha512-Ag8HEb4wi9pubIeKPk3JV08Lbz/5hHSJ6dExHGWGVY5jbcuCl0Sw4Jx2kEa9Q3eKLFsVEZVzahfP4SahIj58jg==
+"@totominc/eslint-config-react@0.4.2":
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/@totominc/eslint-config-react/-/eslint-config-react-0.4.2.tgz#cc507ba2a358d5f7f6ac35967179d209e7c64aec"
+  integrity sha512-Hm9+aCqksLJDl/YYy5EJry8S0sHX94UnRRSre9S15bPWYSr6mTXdIRqVcmpa2bAfmvr/Z7QwyJc72M/dz7J3ig==
   dependencies:
     confusing-browser-globals "^1.0.10"
 
