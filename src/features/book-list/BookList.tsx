@@ -12,7 +12,7 @@ export const BookList: React.FC = () => {
   const [maxResults] = React.useState(10);
   const [resultsCount, setResultsCount] = React.useState(0);
 
-  const { data } = useQuery(['getVolumes', { query: searchQuery, startIndex, maxResults }], getVolumes);
+  const { data, isLoading } = useQuery(['getVolumes', { query: searchQuery, startIndex, maxResults }], getVolumes);
 
   const handleOnChange: React.ChangeEventHandler<HTMLInputElement> = (event) => {
     setInputQuery(event.target.value);
@@ -61,6 +61,12 @@ export const BookList: React.FC = () => {
           Next page
         </Button>
       </div>
+
+      {isLoading ? (
+        <div className="flex items-center justify-center w-full p-6 mt-4 border border-slate-200 bg-white">
+          <p className="font-medium text-xl text-center text-gray-900">Loading...</p>
+        </div>
+      ) : null}
 
       <ul>
         {data && data.items

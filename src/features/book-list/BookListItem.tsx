@@ -14,7 +14,15 @@ export const BookListItem: React.FC<BookListItemProps> = ({ book }) => {
   return (
     <div className="flex w-full my-4 p-6 mx-auto border rounded-sm border-slate-200 bg-white">
       <a href={`/books/${book.id}`} className="w-32 min-w-[128px] mr-6">
-        <img className="block w-full h-auto" src={book.volumeInfo.imageLinks?.thumbnail} alt={book.volumeInfo.title} />
+        <img
+          className="block w-full h-auto"
+          src={
+            book.volumeInfo.imageLinks?.thumbnail ||
+            book.volumeInfo.imageLinks?.smallThumbnail ||
+            'https://www.ourbookshelves.com/media/pic_folder/default_pic/default.png'
+          }
+          alt={book.volumeInfo.title}
+        />
       </a>
 
       <div className="flex flex-col">
