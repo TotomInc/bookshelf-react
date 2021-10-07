@@ -22,7 +22,10 @@ export const BookListItem: React.FC<BookListItemProps> = ({ book }) => {
           <h2 className="mr-4 font-semibold text-lg text-blue-800">{book.volumeInfo.title}</h2>
 
           <div className="w-24 min-w-[96px] flex flex-col">
-            <p className="text-right text-sm text-gray-700">{book.volumeInfo.authors[0]}</p>
+            {book.volumeInfo.authors ? (
+              <p className="text-right text-sm text-gray-700">{book.volumeInfo.authors[0]}</p>
+            ) : null}
+
             <p className="text-right text-sm text-gray-700">{book.volumeInfo.publisher}</p>
           </div>
         </div>

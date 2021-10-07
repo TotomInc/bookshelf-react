@@ -6,7 +6,7 @@ export type BookVolumeItem = {
   volumeInfo: {
     title: string;
     subtitle: string;
-    authors: string[];
+    authors?: string[];
     publisher: string;
     publishedDate: string;
     description: string;

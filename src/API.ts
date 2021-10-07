@@ -10,11 +10,15 @@ type ReactQueryParams<T> = [string, T];
  * @param params React-Query params.
  */
 export const getVolumes = (
-  params: QueryFunctionContext<ReactQueryParams<{ query: string }>>,
+  params: QueryFunctionContext<ReactQueryParams<{ query: string; startIndex: number; maxResults: number }>>,
 ): Promise<GetVolumesResponse> => {
-  const [, { query }] = params.queryKey;
+  const [, { query, startIndex, maxResults }] = params.queryKey;
 
-  return fetch(`https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(query)}`).then((response) => {
+  return fetch(
+    `https://www.googleapis.com/books/v1/volumes?q=${encodeURIComponent(
+      query,
+    )}&startIndex=${startIndex}&maxResults=${maxResults}`,
+  ).then((response) => {
     if (!response.ok) {
       throw new Error(`Unable to retrieve getVolumes: error ${response.status}`);
     }
