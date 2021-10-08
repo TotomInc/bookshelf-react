@@ -44,3 +44,24 @@ yarn run dev
 ```
 
 The app is also deployed with a production build on [react-bookshelf-exercise.netlify.app](https://react-bookshelf-exercise.netlify.app/), thanks to Netlify.
+
+## Unit-tests
+
+Make sure to create/update unit-tests when making changes.
+
+This project is using [`jest`](https://jestjs.io/) and [`@testing-library/react`](https://testing-library.com/docs/react-testing-library/intro/) to encourage good practices for unit-testing: it helps to write tests that resemble the way the software/website is used by clients.
+
+Generally tests are created alongside components with a `.spec.tsx` file-extension.
+
+You can run the following commands for unit-tests:
+
+```shell
+# Run unit-tests
+yarn run test
+
+# Run unit-tests in watch mode (like HMR but for Jest)
+yarn run test:watch
+
+# Run tests and generate a code-coverage
+yarn run test:coverage
+```
