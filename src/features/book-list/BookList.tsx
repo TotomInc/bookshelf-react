@@ -44,7 +44,7 @@ export const BookList: React.FC = () => {
   }, [data]);
 
   return (
-    <div className="max-w-xl mx-auto py-8">
+    <div className="max-w-xl mx-auto py-8 px-4 lg:px-0">
       <input
         className="w-full h-10 px-2 mb-4 rounded-sm font-medium text-lg text-gray-900 bg-slate-200 ring-blue-300 transition focus:ring focus:outline-none"
         placeholder="Search a book and press Enter"

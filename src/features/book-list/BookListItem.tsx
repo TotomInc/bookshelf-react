@@ -13,7 +13,7 @@ type BookListItemProps = {
 export const BookListItem: React.FC<BookListItemProps> = ({ book }) => {
   return (
     <div className="flex w-full my-4 p-6 mx-auto border rounded-sm border-slate-200 bg-white">
-      <a href={`/books/${book.id}`} className="w-32 min-w-[128px] mr-6">
+      <a href={`/books/${book.id}`} className="w-16 lg:w-32 min-w-[64px] lg:min-w-[128px] mr-6">
         <img
           className="block w-full h-auto"
           src={
@@ -26,15 +26,15 @@ export const BookListItem: React.FC<BookListItemProps> = ({ book }) => {
       </a>
 
       <div className="flex flex-col">
-        <div className="flex justify-between mb-6">
-          <h2 className="mr-4 font-semibold text-lg text-blue-800">{book.volumeInfo.title}</h2>
+        <div className="flex flex-col lg:flex-row justify-between mb-4">
+          <h2 className="lg:mr-4 font-semibold text-lg text-blue-800 leading-tight">{book.volumeInfo.title}</h2>
 
-          <div className="w-24 min-w-[96px] flex flex-col">
+          <div className="lg:w-24 lg:min-w-[96px] flex flex-col">
             {book.volumeInfo.authors ? (
-              <p className="text-right text-sm text-gray-700">{book.volumeInfo.authors[0]}</p>
+              <p className="lg:text-right text-sm text-gray-700">{book.volumeInfo.authors[0]}</p>
             ) : null}
 
-            <p className="text-right text-sm text-gray-700">{book.volumeInfo.publisher}</p>
+            <p className="lg:text-right text-sm text-gray-700">{book.volumeInfo.publisher}</p>
           </div>
         </div>
 
