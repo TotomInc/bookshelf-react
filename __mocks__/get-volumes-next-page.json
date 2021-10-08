@@ -1,0 +1,79 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 1033,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "nriTswEACAAJ",
+      "etag": "6CkMt1YRrG8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/nriTswEACAAJ",
+      "volumeInfo": {
+        "title": "Harry Potter et le prince de Sang-Mêlé",
+        "authors": [
+          "J. K. Rowling"
+        ],
+        "publisher": "Gallimard jeunesse",
+        "publishedDate": "2017-10-12",
+        "description": "Dans un monde de plus en plus inquiétant, Harry se prépare à retrouver Ron et Hermione. Bientôt, ce sera la rentrée à Poudlard, avec les autres étudiants de sixième année. Mais pourquoi Dumbledore vient-il en personne chercher Harry chez les Dursley ? Dans quels extraordinaires voyages au coeur de la mémoire va-t-il l'entraîner ?",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "2070585220"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9782070585229"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 752,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=nriTswEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=nriTswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "fr",
+        "previewLink": "http://books.google.fr/books?id=nriTswEACAAJ&dq=Harry+Potter&hl=&cd=11&source=gbs_api",
+        "infoLink": "http://books.google.fr/books?id=nriTswEACAAJ&dq=Harry+Potter&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Harry_Potter_et_le_prince_de_Sang_M%C3%AAl%C3%A9.html?hl=&id=nriTswEACAAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=nriTswEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Dans un monde de plus en plus inquiétant, Harry se prépare à retrouver Ron et Hermione."
+      }
+    }
+  ]
+}

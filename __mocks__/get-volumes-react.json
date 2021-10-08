@@ -1,0 +1,76 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 631,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "srG8DwAAQBAJ",
+      "etag": "QCcOdf+NqFE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/srG8DwAAQBAJ",
+      "volumeInfo": {
+        "title": "Concevez des applications mobiles avec React Native",
+        "subtitle": "Développement, publication sur les stores et stratégie marketing",
+        "authors": [
+          "Blaise Barré"
+        ],
+        "publishedDate": "2019-11-07",
+        "description": "La 4e de couverture indique : \"Le framework mobile créé par Facebook : A l'origine de React Native, il y a React.js, une bibliothèque JavaScript développée par une équipe d'ingénieurs de Facebook exclusivement pour Facebook. Repris ensuite par Instagram (qui appartient à Facebook), le code source est rendu libre en mars 2013. Début 2015, Facebook annonce React Native, un framework qui se fonde sur les mêmes composants que React.js, adapté au mobile. Le framework offre donc la possibilité de développer de manière native sur iOS, Android et Windows Phone. Contrairement à Ionic, React Native, lui, est compilé. C'est-à-dire que chaque partie de l'interface est conçue sur mesure et s'adapte complètement à la plate-forme. Que vous affichiez un bouton, une zone de texte, une image ou n'importe quoi d'autre, vous allez alors vous servir d'un composant React Native que le framework va se charger lui-même de transformer en composant natif. Cet ouvrage va vous permettre de découvrir et de vous perfectionner en React Native et vous donnera les clés pour monétiser votre application sur les kiosques mobiles d'Apple et de Google. Cette seconde édition tient compte des dernières évolutions de React Native. Etude de cas : développement d'une appli \"météo\". Tout au long de l'ouvrage, vous serez amené à développer une application mati-plates-formes de prévisions météo. Elle sera créée et enrichie avec des fonctionnalités de plus en plus complexes, entrecoupées par la publication et l'analyse marketing de votre projet. A qui s'adresse ce livre ? Aux développeurs d'applications mobiles qui souhaitent découvrir ou perfectionner leurs connaissances sur React Native ; Aux étudiants et amateurs éclairés désirant parfaire leurs acquis sur ce sujet de créer de puissantes applications mobiles ; Plus généralement à tous ceux ayant déjà une expérience web et qui souhaitent découvrir le monde du mobile.\"",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9782212678895"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "2212678894"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 209,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=srG8DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=srG8DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "fr",
+        "previewLink": "http://books.google.fr/books?id=srG8DwAAQBAJ&printsec=frontcover&dq=react&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.fr/books?id=srG8DwAAQBAJ&dq=react&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Concevez_des_applications_mobiles_avec_R.html?hl=&id=srG8DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=srG8DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "La 4e de couverture indique : &quot;Le framework mobile créé par Facebook : A l&#39;origine de React Native, il y a React.js, une bibliothèque JavaScript développée par une équipe d&#39;ingénieurs de Facebook exclusivement pour Facebook."
+      }
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 1019,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "nvijsUyJYR4C",
+      "etag": "rlllPfD9Cr4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/nvijsUyJYR4C",
+      "volumeInfo": {
+        "title": "Harry Potter à L'école des Sorciers",
+        "authors": [
+          "J.K. Rowling"
+        ],
+        "publisher": "Pottermore Publishing",
+        "publishedDate": "2015-12-08",
+        "description": "Le jour de ses onze ans, Harry Potter, un orphelin élevé par un oncle et une tante qui le détestent, voit son existence bouleversée. Un géant vient le chercher pour l’emmener à Poudlard, une école de sorcellerie! Voler en balai, jeter des sorts, combattre les trolls : Harry Potter se révèle un sorcier doué. Mais un mystère entoure sa naissance et l’effroyable V..., le mage dont personne n’ose prononcer le nom. Amitié, surprises, dangers, scènes comiques, Harry découvre ses pouvoirs et la vie à Poudlard. Le premier tome des aventures du jeune héros vous ensorcelle aussitôt!",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781781101032"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1781101035"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 322,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 35,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.8.9.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=nvijsUyJYR4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=nvijsUyJYR4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "fr",
+        "previewLink": "http://books.google.fr/books?id=nvijsUyJYR4C&printsec=frontcover&dq=Harry+Potter&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=nvijsUyJYR4C&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=nvijsUyJYR4C"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 8.99,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 8.99,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=nvijsUyJYR4C&rdid=book-nvijsUyJYR4C&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 8990000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 8990000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/Harry_Potter_%C3%A0_L_%C3%A9cole_des_Sorciers-sample-epub.acsm?id=nvijsUyJYR4C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.fr/books/download/Harry_Potter_%C3%A0_L_%C3%A9cole_des_Sorciers-sample-pdf.acsm?id=nvijsUyJYR4C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=nvijsUyJYR4C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Le jour de ses onze ans, Harry Potter, un orphelin élevé par un oncle et une tante qui le détestent, voit son existence bouleversée."
+      }
+    }
+  ]
+}
