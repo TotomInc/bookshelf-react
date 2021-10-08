@@ -65,3 +65,9 @@ yarn run test:watch
 # Run tests and generate a code-coverage
 yarn run test:coverage
 ```
+
+## Linting (ESLint)
+
+This project have an enforced ESLint config that cover TypeScript to React (hooks) and code-styling with Prettier and unit-testing. It integrates very well in VS Code dans can auto-fix ESLint warnings/errors when saving files.
+
+The ESLint config used is from [`@totominc/eslint-config-react`](https://github.com/TotomInc/eslint-configs/tree/master/packages/eslint-config-react).
