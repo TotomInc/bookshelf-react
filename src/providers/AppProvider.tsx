@@ -1,9 +1,10 @@
-import React from 'react';
+import * as React from 'react';
 import { ErrorBoundary } from 'react-error-boundary';
 import { QueryClientProvider } from 'react-query';
 import { ReactQueryDevtools } from 'react-query/devtools';
 
 import { queryClient } from '../lib/react-query';
+import { UserContext } from '../contexts/UserContext';
 
 const ErrorFallback = () => (
   <div className="text-red-500 w-screen h-screen flex flex-col justify-center items-center" role="alert">
@@ -12,12 +13,14 @@ const ErrorFallback = () => (
 );
 
 export const AppProvider: React.FC = ({ children }) => {
+  const [token, setToken] = React.useState<string | null>(null);
+
   return (
     <ErrorBoundary FallbackComponent={ErrorFallback}>
       <QueryClientProvider client={queryClient}>
         <ReactQueryDevtools />
 
-        {children}
+        <UserContext.Provider value={{ token, setToken }}>{children}</UserContext.Provider>
       </QueryClientProvider>
     </ErrorBoundary>
   );
