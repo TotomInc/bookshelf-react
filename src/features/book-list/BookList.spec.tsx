@@ -34,9 +34,7 @@ describe('BookList tests', () => {
 
     render(<BookList />);
 
-    const input = screen.getByPlaceholderText('Search a book and press Enter');
-
-    userEvent.click(input);
+    userEvent.click(screen.getByPlaceholderText('Search a book and press Enter'));
     userEvent.keyboard('react');
     userEvent.keyboard('{Enter}');
 
@@ -68,5 +66,37 @@ describe('BookList tests', () => {
     await waitFor(() => {
       expect(screen.getByText("Harry Potter à L'école des Sorciers")).toBeInTheDocument();
     });
+  });
+
+  it('should not have access to the next page if there are no more results to display', async () => {
+    expect.hasAssertions();
+
+    render(<BookList />);
+
+    userEvent.click(screen.getByPlaceholderText('Search a book and press Enter'));
+    userEvent.keyboard('vuejs');
+    userEvent.keyboard('{Enter}');
+
+    await screen.findByText('Vue.js - Framework JavaScript');
+
+    userEvent.click(screen.getByText('Next page'));
+
+    expect(screen.getByText('Vue.js - Framework JavaScript')).toBeInTheDocument();
+  });
+
+  it("should not have access to the previous page it's already on the first page", async () => {
+    expect.hasAssertions();
+
+    render(<BookList />);
+
+    userEvent.click(screen.getByPlaceholderText('Search a book and press Enter'));
+    userEvent.keyboard('vuejs');
+    userEvent.keyboard('{Enter}');
+
+    await screen.findByText('Vue.js - Framework JavaScript');
+
+    userEvent.click(screen.getByText('Previous page'));
+
+    expect(screen.getByText('Vue.js - Framework JavaScript')).toBeInTheDocument();
   });
 });

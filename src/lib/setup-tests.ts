@@ -6,6 +6,7 @@ import fetch, { enableFetchMocks } from 'jest-fetch-mock';
 import { setLogger } from 'react-query';
 
 import volumesReactBooks from '../../__mocks__/get-volumes-react.json';
+import volumesVuejsMaxPage from '../../__mocks__/get-volumes-max-page.json';
 import volumesBooksNextPage from '../../__mocks__/get-volumes-next-page.json';
 import volumesBooks from '../../__mocks__/get-volumes.json';
 
@@ -15,6 +16,11 @@ fetch.mockResponse((req) => {
   // When searching 'react' in the search query input.
   if (req.url.includes('googleapis.com/books/v1/volumes?q=react')) {
     return Promise.resolve(JSON.stringify(volumesReactBooks));
+  }
+
+  // When searching 'vuejs' in the search query input.
+  if (req.url.includes('googleapis.com/books/v1/volumes?q=vuejs')) {
+    return Promise.resolve(JSON.stringify(volumesVuejsMaxPage));
   }
 
   // When having the default list of books and retrieving the next page.

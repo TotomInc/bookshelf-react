@@ -1,0 +1,68 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 1,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "QypozgEACAAJ",
+      "etag": "ynZZK1YfzNs",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/QypozgEACAAJ",
+      "volumeInfo": {
+        "title": "Vue.js - Framework JavaScript",
+        "subtitle": "Développez des applications web modernes en JavaScript avec un framework progressif",
+        "authors": [
+          "Yoann Gauchard"
+        ],
+        "publishedDate": "2021-04-09",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "2409029426"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9782409029424"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 617,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "language": "fr",
+        "previewLink": "http://books.google.fr/books?id=QypozgEACAAJ&dq=vuejs&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.fr/books?id=QypozgEACAAJ&dq=vuejs&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Vue_js.html?hl=&id=QypozgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "FR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "FR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=QypozgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}
