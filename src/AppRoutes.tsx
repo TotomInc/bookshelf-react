@@ -2,6 +2,7 @@ import * as React from 'react';
 import { RouteProps, BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 
 import { UserContext } from './contexts/UserContext';
+import { Auth } from './features/auth/Auth';
 import { BookList } from './features/book-list/BookList';
 
 export type ProtectedRouteProps = RouteProps & {
@@ -37,10 +38,7 @@ export const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ component: Compo
 export const AppRoutes: React.FC = () => (
   <Router>
     <Switch>
-      <Route path="/" exact>
-        <p>Login page to-do</p>
-      </Route>
-
+      <Route path="/" exact component={Auth} />
       <ProtectedRoute path="/book-list" component={BookList} />
     </Switch>
   </Router>
